@@ -1,0 +1,54 @@
+header .block-title {
+	font-size: 1.6em;
+}
+.header-carousel {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+
+	div {
+		padding: 0 10px;
+		display: flex;
+		flex-direction:column;
+		flex-basis:30%;
+		img {
+			flex: 1 1 auto;
+		}
+	}
+
+	.move {
+		position: absolute;
+		height: 100%;
+		width: 46px;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		
+	}
+	.move.left {
+		background: linear-gradient(to left,rgba(255,255,255,.4) 11%,#fff);
+		left: 0;
+	}
+	.move.right {		
+		background: linear-gradient(to right,rgba(255,255,255,.4) 11%,#fff);
+		right: 0;
+	}
+	.move.left:after, .move.right:after {
+		content: "";
+		height: 100%;
+		width: 100%;
+		display: block;
+		.sprite;
+		position: relative;
+		top: 38%;
+		left: 5px;
+	}
+
+	.move.right:after {
+		.sprite-arrow-right-big;		
+	}
+	.move.left:after {
+		.sprite-arrow-left-big;		
+	}	 
+}

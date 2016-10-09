@@ -1,0 +1,29 @@
+@import "../../bower_components/normalize.css/normalize.css";
+@import "sprite-style.less";
+@import (inline) '../style/reset.css';
+@import '../style/variables.less';
+@import '../style/header.less';
+@import '../style/block-title.less';
+@import '../style/main-content.less';
+
+body {
+	.base-font;
+}
+
+div, figure, figcaption {
+	outline: 1px solid red;
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.block-separator {
+	border: none;
+	background-color: gray;
+	height: 3px;
+}
+.main-content {
+	display: flex;
+	flex-direction:row;
+}

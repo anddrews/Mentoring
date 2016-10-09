@@ -1,0 +1,46 @@
+
+
+.page-content_layout {
+	max-width: 976px;
+	padding: 0 17px 0 17px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 0;
+	&:after {
+			.clearfix;
+	}
+	.main-content-block:after {
+		.clearfix;
+	} 
+}
+
+.page-content-left, .page-content-right {
+	display: inline-block;
+	&:after {
+		.clearfix;
+	}
+}
+
+.page-content-left {
+	width: 68%;
+	padding-right: 17px;
+	float: left;
+}
+.page-content-right {
+	width: 32%;
+}
+
+
+.page-content-bottom-carusel, .page-content-left, .page-content-right {
+	font-size: 14px;
+}
+
+a:hover {
+    cursor: url(../img/sprite/cursor.png), auto;
+}
+
+@import "sprite-style.less";
+@import "page-content-left.less"; 
+@import "page-content-right.less"; 
+@import "bottom-carousel.less"; 
+@import "media-queries.less"; 

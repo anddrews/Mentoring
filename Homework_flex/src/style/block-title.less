@@ -1,0 +1,42 @@
+.block-title {
+	&.color-gray {
+		hr {
+			background-color: grey;					
+		}
+	}
+	&.color-blue {
+		color:@color-blue;
+		hr {
+			background-color: @color-red;			
+		}
+	}
+	span {
+		background-color: #fff;
+	}
+	hr {
+		position: relative;
+		border: none;
+		margin: 0;
+		z-index: -10;
+	}
+	&.underline {
+		span {
+			padding-right: 9px;			
+		}
+		hr {
+			height: 3px;		
+			top: -7px;
+		}
+	}
+	&.midelline {
+		padding-top: 5px;
+		text-align: center;
+		span {
+			padding: 0 9px;						
+		}
+		hr {
+			height: 2px;		
+			top:-11px;
+		}	
+	}
+}
