@@ -27,3 +27,23 @@ div, figure, figcaption {
 	display: flex;
 	flex-direction:row;
 }
+figure {
+		display: flex;
+		flex-direction:row;
+		margin: 10px 0;
+		img {
+			flex:1 1;
+			flex-basis:30%;
+		}
+		figcaption {
+			flex:2 2 50%;
+		}
+}
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+    width: 0;
+    height: 0;
+}
