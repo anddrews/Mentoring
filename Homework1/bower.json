@@ -3,10 +3,10 @@
   "description": "",
   "main": "",
   "authors": [
-    "Andrei Kandratsenka <Andrei_Kandratsenka@epam.com> "
+    "Andrei Kandratsenka <Andrei_Kandratsenka@epam.com>"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/anddrews/Mentoring",
   "private": true,
   "ignore": [
     "**/.*",
