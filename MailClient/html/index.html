@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mail client</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../js/Model/letter.js"></script>
+    <script type="text/javascript" src="../js/Bll/daoService.js"></script>
+    <script type="text/javascript" src="../js/DomManipulate/domManipulate.js"></script>
+    <script type="text/javascript" src="../js/Common/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
+</head>
+<body>
+    <h3>Test</h3>
+    <div class="main-menu">
+    	
+    </div>
+    <div class="wrapper">
+    	<div id="letters" class="letters-list">
+    		<div class = "letters-folder" id="inbox">
+                <h3>Inbox</h3>      
+            </div>      
+    		<div class = "letters-folder" id="outbox">
+                <h3>Outbox</h3>      
+            </div>
+            <div class = "letters-folder" id="sent">
+                <h3>Send</h3>
+            </div>
+    		<div class = "letters-folder" id="draft">
+                <h3>Draft</h3>      
+            </div>
+    	</div>
+    	<div class="full-info">
+            <div class="full-info-header">
+                <div>
+                    <span>From:</span>
+                    <span id="full-info-from"></span> 
+                </div>
+                <div>
+                    <span>Subject:</span>
+                    <span id="full-info-subj"></span>
+                </div>
+                <div id="full-info-body"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

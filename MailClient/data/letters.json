@@ -1,0 +1,100 @@
+[
+	{
+		"id":       1,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum1",
+		"body":     "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+		"folder":   "inbox",
+		"outgoing": false,
+		"incoming": true,
+		"read":     false,
+		"send":     false
+	},
+	{
+		"id":       7,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum2",
+		"body":     "Loreim ipsum2",
+		"folder":   "inbox",
+		"outgoing": false,
+		"incoming": true,
+		"read":     false,
+		"send":     false
+	},
+	{
+		"id":       8,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum3",
+		"body":     "Loreim ipsum3",
+		"folder":   "inbox",
+		"outgoing": false,
+		"incoming": true,
+		"read":     false,
+		"send":     false
+	},
+	{
+		"id":       2,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum4",
+		"body":     "Loreim ipsum4",
+		"folder":   "inbox",
+		"outgoing": false,
+		"incoming": true,
+		"read":     false,
+		"send":     false
+	},
+	{
+		"id":       3,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum5",
+		"body":     "Loreim ipsum5",
+		"folder":   "outbox",
+		"outgoing": true,
+		"incoming": false,
+		"read":     false,
+		"send":     false
+	},
+	{
+		"id":       4,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum6",
+		"body":     "Loreim ipsum6",
+		"folder":   "outbox",
+		"outgoing": true,
+		"incoming": false,
+		"read":     false,
+		"send":     false
+	},
+	{
+		"id":       5,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum7",
+		"body":     "Loreim ipsum7",
+		"folder":   "draft",
+		"outgoing": true,
+		"incoming": false,
+		"read":     false,
+		"send":     false
+	},
+	{
+		"id":       6,
+		"from":     "test1@test.by",
+		"to":       "test2@test.by",
+		"subject":  "Loreim ipsum8",
+		"body":     "Loreim ipsum8",
+		"folder":   "inbox",
+		"outgoing": false,
+		"incoming": true,
+		"read":     true,
+		"send":     false
+	}
+]
+
+

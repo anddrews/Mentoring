@@ -1,0 +1,25 @@
+.wrapper {
+	display: flex;
+	flex-direction: row;
+}
+.letters-list, .full-info {
+	outline: 1px solid gray;
+	font-size: 14px;
+
+}
+.letters-list {
+	width: 30%;
+}
+.full-info {
+	width: 70%;
+}
+
+.letters-folder {
+	outline: 1px solid red;
+}
+
+.letter {
+	margin: 5px;
+	background-color: #f6f6f6;
+	cursor: pointer;
+}
