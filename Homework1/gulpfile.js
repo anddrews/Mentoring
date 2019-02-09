@@ -8,7 +8,8 @@ var gulp = require('gulp'),
     rimraf = require('rimraf'),
     browserSync = require("browser-sync"),
     reload = browserSync.reload,
-    plug = require("gulp-load-plugins")();
+    plug = require("gulp-load-plugins")(),
+    fileinclude = require('gulp-file-include');
 
 
 var path = {
@@ -20,7 +21,7 @@ var path = {
         fonts: 'distr/fonts/'
     },
     src: { 
-        html: 'src/*.html', 
+        html: 'src/**/*.html', 
         style: 'src/style/common-style.less',
         img: 'src/img/**/*.*', 
         fonts: 'src/fonts/**/*.*'
@@ -46,7 +47,10 @@ var config = {
 
 gulp.task('html:build', function () {
     gulp.src(path.src.html) 
-        .pipe(rigger())
+        .pipe(fileinclude({
+          prefix: '@@',
+          basepath: '@file'
+        }))
         .pipe(gulp.dest(path.distr.html)) 
         .pipe(reload({stream: true})); 
 });
@@ -97,4 +101,4 @@ gulp.task('build', [
     'image:build'
 ]);
 
-gulp.task('default', ['webserver', 'watch']);
+gulp.task('default', ['build','webserver', 'watch']);

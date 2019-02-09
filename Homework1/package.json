@@ -7,9 +7,6 @@
   "scripts": {
     "start": "gulp"
   },
-  "dependencies": {
-    "bower": "^1.5.3"
-  },
   "devDependencies": {
     "browser-sync": "^2.2.3",
     "gulp": "^3.9.0",
@@ -21,5 +18,8 @@
     "gulp-watch": "^4.1.1",
     "gulp-webserver": "^0.9.1",
     "rimraf": "^2.3.1"
+  },
+  "dependencies": {
+    "gulp-file-include": "^2.0.1"
   }
 }
